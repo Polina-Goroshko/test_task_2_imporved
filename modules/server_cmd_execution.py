@@ -1,11 +1,11 @@
-"""Own module: runs server commmands"""
+"""Own module: runs server commmands."""
 import subprocess
 import getpass
 import shlex
 
 
 class ServerCmdExecution:
-    """Define a method, which runs commands on a server"""
+    """Define a method, which runs commands on a server."""
 
     @staticmethod
     def run_cmd(cmd: str) -> int:
