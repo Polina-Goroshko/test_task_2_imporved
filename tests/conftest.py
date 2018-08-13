@@ -183,3 +183,4 @@ def main_setup_fixture(request, parser_of_client_password,
     request.addfinalizer(main_teardown_finalizer)
     request.addfinalizer(unmount_dir)
     return 0
+
