@@ -1,4 +1,4 @@
-"""Own modules: runs server commmands"""
+"""Own module: runs server commmands"""
 import subprocess
 import getpass
 import shlex
