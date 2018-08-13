@@ -5,7 +5,7 @@ import shlex
 
 
 class ServerCmdExecution:
-    """Define a function, which runs commands on a server"""
+    """Define a method, which runs commands on a server"""
 
     @staticmethod
     def run_cmd(cmd: str) -> int:
